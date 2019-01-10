@@ -24,6 +24,7 @@ html {
 
 input:checked + p {
     background: #f9f9f9;
+    text-decoration: line-through;
 }
 
 input[type="checkbox"] {
@@ -33,7 +34,7 @@ input[type="checkbox"] {
 p {
     margin: 0;
     padding: 20px;
-    transition: background 0.2s;
+    transition: all 0.2s;
     flex: 1;
     font-family: 'helvetica neue';
     font-size: 20px;
